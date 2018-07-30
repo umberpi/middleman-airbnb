@@ -1,0 +1,20 @@
+<div id="team">
+  <h1>Meet the team</h1>
+
+  <ul class="list-inline text-center">
+    <% ["PSalaun", "umberpi"].each do |alumni| %>
+
+    <li>
+      <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{alumni}", class: "img-circle team" %>
+      <h3> <%= alumni.capitalize %> </h3>
+    </li>
+
+
+    <% end %>
+
+
+  </ul>
+
+
+
+</div>
